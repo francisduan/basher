@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/tinglin/catkin_ws/src
+echo gmapping_gazebo
+roslaunch turtlebot_gazebo gmapping_demo.launch
+cd -

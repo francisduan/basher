@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/tinglin/catkin_ws/src
+echo savemap
+rosrun map_server map_saver -f "/home/tinglin/maps/$(date)"
+cd -

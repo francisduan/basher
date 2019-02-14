@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/tinglin/catkin_ws
+echo maker
+catkin_make
+cd -

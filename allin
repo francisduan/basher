@@ -1,0 +1,20 @@
+#!/bin/bash
+cd 
+cd catkin_ws/
+echo sourcing
+source devel/setup.bash
+cd -
+
+cd /home/tinglin/catkin_ws
+echo maker
+catkin_make
+cd -
+
+
+
+cd /home/tinglin/catkin_ws/src
+echo run_contest1
+rosrun mie443_contest1 contest1
+cd -
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+cd 
+cd catkin_ws/
+echo sourcing
+source devel/setup.bash
+cd -
